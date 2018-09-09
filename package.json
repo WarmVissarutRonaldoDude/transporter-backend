@@ -1,0 +1,30 @@
+{
+  "name": "transporter-backend",
+  "version": "0.0.1",
+  "description": "Transporter Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "jest --forceExit"
+  },
+  "author": "Vissarut T.",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "faker": "^4.1.0",
+    "flat": "^4.1.0",
+    "git-rev-sync": "^1.12.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "node-cache": "^4.2.0",
+    "pino": "^4.17.6"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./__tests__/setup.js",
+    "testRegex": "/__tests__/.*\\.test\\.js$"
+  }
+}

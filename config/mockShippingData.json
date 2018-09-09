@@ -1,0 +1,14 @@
+{
+    "THV5YPH5L3": {
+        "id": "THV5YPH5L3",
+        "from": "Test from detail free string value",
+        "to": "Test to detail free string value",
+        "itemDetail": "Detail teat"
+    },
+    "TH9WSI4IV5": {
+        "id": "TH9WSI4IV5",
+        "from": "Test2 From",
+        "to": "Test2 to",
+        "itemDetail": "Hmmm"
+    }
+}
