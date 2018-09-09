@@ -10,6 +10,7 @@
   "author": "Vissarut T.",
   "license": "ISC",
   "dependencies": {
+    "@koa/cors": "2",
     "dotenv": "^6.0.0",
     "faker": "^4.1.0",
     "flat": "^4.1.0",

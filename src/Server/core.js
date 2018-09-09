@@ -2,6 +2,7 @@
 const Router = require('koa-router');
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
+const cors = require('@koa/cors');
 const CacheController = require('../Controller/CacheController');
 const globalCache = new CacheController();
 /**
@@ -20,6 +21,7 @@ class Core {
 
         this.app.use(this.json);
         this.app.use(this.cache);
+        this.app.use(cors());
 
         routes(router);
         this.app.use(router.routes())
